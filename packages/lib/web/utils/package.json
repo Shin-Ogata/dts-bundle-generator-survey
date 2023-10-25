@@ -4,8 +4,7 @@
   "version": "0.9.17",
   "author": "Shin Ogata",
   "dependencies": {
-    "@cdp/ajax": "file:../../worker/ajax",
-    "@cdp/core-utils": "file:../../core/utils"
+    "@cdp/ajax": "file:../../worker/ajax"
   },
   "keywords": [
     "CDP",
