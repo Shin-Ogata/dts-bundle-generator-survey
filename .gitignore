@@ -1,0 +1,4 @@
+# common settings
+.*/
+node_modules/
+built/

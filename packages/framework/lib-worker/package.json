@@ -1,0 +1,31 @@
+{
+  "name": "@cdp/lib-worker",
+  "description": "worker library collection",
+  "version": "0.9.17",
+  "author": "Shin Ogata",
+  "dependencies": {
+    "@cdp/lib-core": "file:../lib-core"
+  },
+  "devDependencies": {
+    "@cdp/ajax": "file:../../lib/worker/ajax"
+  },
+  "keywords": [
+    "CDP",
+    "TypeScript",
+    "javascript"
+  ],
+  "license": "UNLICENSED",
+  "main": "dist/lib-worker",
+  "module": "dist/lib-worker.mjs",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shin-Ogata/fieldwork.git"
+  },
+  "scripts": {
+    "bundle:dts": "dts-bundle-generator --config dts-bundle-config.js",
+    "compile:src": "tsc -p ./tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "dist/lib-worker.d.ts"
+}

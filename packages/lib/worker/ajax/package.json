@@ -1,0 +1,24 @@
+{
+  "name": "@cdp/ajax",
+  "description": "ajax utility module",
+  "version": "0.9.17",
+  "author": "Shin Ogata",
+  "dependencies": {},
+  "keywords": [
+    "CDP",
+    "TypeScript",
+    "javascript"
+  ],
+  "license": "UNLICENSED",
+  "main": "dist/ajax",
+  "module": "dist/ajax.mjs",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shin-Ogata/fieldwork.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "types/index.d.ts"
+}
