@@ -3,7 +3,11 @@ const { rm } = require('node:fs/promises');
 const { order } = require('./package-order');
 
 async function clean(root) {
-    dirs = ['node_modules', 'built', 'dist'];
+    const dirs = ['node_modules', 'built'];
+
+    if (basename(root).startsWith('lib-')) {
+        dirs.push('dist');
+    }
 
     const del = async (path) => rm(path, { force: true, recursive: true });
     for (const dir of dirs) {
@@ -12,8 +16,6 @@ async function clean(root) {
 }
 
 async function main() {
-    const cwdBackup = process.cwd();
-
     for (const pkg of order) {
         const location = resolve('packages', pkg);
         const pkgname = basename(location);

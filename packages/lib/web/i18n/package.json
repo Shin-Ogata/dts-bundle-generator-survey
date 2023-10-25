@@ -1,0 +1,26 @@
+{
+  "name": "@cdp/i18n",
+  "description": "internationalization module",
+  "version": "0.9.17",
+  "author": "Shin Ogata",
+  "dependencies": {
+    "@cdp/extension-i18n": "file:../../../extension/i18n"
+  },
+  "keywords": [
+    "CDP",
+    "TypeScript",
+    "javascript"
+  ],
+  "license": "UNLICENSED",
+  "main": "dist/i18n",
+  "module": "dist/i18n.mjs",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shin-Ogata/fieldwork.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "types/index.d.ts"
+}

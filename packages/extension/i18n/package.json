@@ -1,0 +1,28 @@
+{
+  "name": "@cdp/extension-i18n",
+  "description": "extension for internationalization",
+  "version": "0.9.17",
+  "author": "Shin Ogata",
+  "cdp-config": {
+    "build": {
+      "global": "CDP.Exension"
+    }
+  },
+  "keywords": [
+    "CDP",
+    "TypeScript",
+    "javascript"
+  ],
+  "license": "UNLICENSED",
+  "main": "dist/extension-i18n",
+  "module": "dist/extension-i18n.mjs",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shin-Ogata/fieldwork.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "dist/extension-i18n.d.ts"
+}

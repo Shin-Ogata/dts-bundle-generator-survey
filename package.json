@@ -14,6 +14,7 @@
   "main": "index.js",
   "scripts": {
     "reproduce": "dts-bundle-generator --config ./packages/framework/lib-web/dts-bundle-config.js",
+    "reproduce2": "dts-bundle-generator --config ./packages/framework/lib-web2/dts-bundle-config.js",
     "not-reproduce": "dts-bundle-generator --config ./packages/framework/lib-worker/dts-bundle-config.js",
     "packages:clean": "node ./tasks/clean.js",
     "packages:setup": "node ./tasks/setup.js"
