@@ -1,0 +1,27 @@
+{
+  "name": "@cdp/web-utils",
+  "description": "web domain utilities",
+  "version": "0.9.17",
+  "author": "Shin Ogata",
+  "dependencies": {
+    "@cdp/ajax": "file:../../worker/ajax",
+    "@cdp/core-utils": "file:../../core/utils"
+  },
+  "keywords": [
+    "CDP",
+    "TypeScript",
+    "javascript"
+  ],
+  "license": "UNLICENSED",
+  "main": "dist/web-utils",
+  "module": "dist/web-utils.mjs",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shin-Ogata/fieldwork.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "types/index.d.ts"
+}

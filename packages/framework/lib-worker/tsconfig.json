@@ -1,0 +1,14 @@
+{
+  "extends": "../../../config/tsconfig/worker",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "types",
+    "inlineSources": true,
+    "inlineSourceMap": true,
+    "outDir": "built",
+    "rootDir": "src"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "dts-bundle-generator-survey",
+  "description": "",
+  "version": "1.0.0",
+  "author": "",
+  "devDependencies": {
+    "dts-bundle-generator": "8.1.1",
+    "typescript": "5.2.2"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "reproduce": "dts-bundle-generator --config ./packages/framework/lib-web/dts-bundle-config.js",
+    "not-reproduce": "dts-bundle-generator --config ./packages/framework/lib-worker/dts-bundle-config.js",
+    "packages:clean": "node ./tasks/clean.js",
+    "packages:setup": "node ./tasks/setup.js"
+  }
+}

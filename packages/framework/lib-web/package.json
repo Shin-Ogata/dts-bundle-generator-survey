@@ -1,0 +1,28 @@
+{
+  "name": "@cdp/lib-web",
+  "description": "web api library collection",
+  "version": "0.9.17",
+  "author": "Shin Ogata",
+  "devDependencies": {
+    "@cdp/web-utils": "file:../../lib/web/utils"
+  },
+  "keywords": [
+    "CDP",
+    "TypeScript",
+    "javascript"
+  ],
+  "license": "UNLICENSED",
+  "main": "dist/lib-web",
+  "module": "dist/lib-web.mjs",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shin-Ogata/fieldwork.git"
+  },
+  "scripts": {
+    "bundle:dts": "dts-bundle-generator --config dts-bundle-config.js",
+    "compile:src": "tsc -p ./tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "dist/lib-web.d.ts"
+}
