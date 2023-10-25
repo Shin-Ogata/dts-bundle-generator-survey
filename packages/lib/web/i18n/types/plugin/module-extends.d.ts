@@ -1,16 +1,7 @@
 import { i18n } from '@cdp/extension-i18n';
-type AjaxRequestOptions = Record<string, any>;
 
 declare module '@cdp/extension-i18n' {
     namespace i18n {
-        /**
-         * @en {@link AjaxBackend} options interface.
-         * @ja {@link AjaxBackend} のオプションインターフェイス
-         */
-        interface AjaxBackendOptions extends AjaxRequestOptions {
-            /** load path resolver */
-            loadPath?: string | ((languages: string[], namespaces: string[]) => string);
-        }
         /**
          * @en {@link DomLocalizer} options interface.
          * @ja {@link DomLocalizer} のオプションインターフェイス
